@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Landing Page</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+        }
+
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
+        }
+
+        footer {
+            background-color: gray;
+            color: white;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-rocket me-2"></i>Gospel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Welcome to my Website</h1>
+                    <p class="lead mb-4">Your Life has a Purpose</p>
+                    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold mb-3">Verse Today</h2>
+                    <p class="lead text-muted">Jeremiah 29:11 in the King James Version (KJV) is a popular Bible verse
+                        that reads: "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace,
+                        and not of evil, to give you an expected end". It is commonly understood as a promise of God’s
+                        good intentions, hope, and a positive future for
+                        His people, even during times of trial.</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 card-hover border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4 mx-auto"
+                                style="width: 80px; height: 80px;">
+                                <i class="fas fa-lightbulb text-primary fs-3"></i>
+                            </div>
+                            <h4 class="card-title fw-bold mb-3">Card 1</h4>
+                            <p class="card-text text-muted">RCPV.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 card-hover border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4 mx-auto"
+                                style="width: 80px; height: 80px;">
+                                <i class="fas fa-shield-alt text-success fs-3"></i>
+                            </div>
+                            <h4 class="card-title fw-bold mb-3">Card 2</h4>
+                            <p class="card-text text-muted">KJV.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 card-hover border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4 mx-auto"
+                                style="width: 80px; height: 80px;">
+                                <i class="fas fa-bolt text-warning fs-3"></i>
+                            </div>
+                            <h4 class="card-title fw-bold mb-3">Card 3</h4>
+                            <p class="card-text text-muted">NLT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="py-5 mt-5">
+        <div class="container" style="text-align:center">
+
+            <div class="col-md-20">
+                <p> @2024 The Word of God.</p>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
